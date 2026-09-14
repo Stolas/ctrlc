@@ -21,10 +21,10 @@ For a given set of IDL files, `ctrlc` generates a unified set of outputs:
 
 ## Features
 
-* **Include-Once Import Splicing:** Imports (`import "types.idl";`) are resolved during compilation and spliced into the generated headers exactly once, preventing duplicate definitions across multiple interfaces[cite: 1].
-* **Built-In Signal Bridge:** Supports ABI-safe signals (`signal state_changed(Int32 state);`)[cite: 1]. Generates thread-safe connection tables, signal argument structs, and emit helpers for both C and C++ drivers[cite: 1].
-* **Strict Type Mapping:** Unifies built-in types into explicit scalar representations (`Int8` through `Int64`, `UInt8` through `UInt64`, `Float`, `Double`, `Bool` mapped to `int32_t`, and borrowed `String` handling)[cite: 1].
-* **Compile-Time AST Verification:** Written in OCaml to ensure strict, type-safe validation of interfaces, methods, signals, and underlying types[cite: 1].
+* **Include-Once Import Splicing:** Imports (`import "types.idl";`) are resolved during compilation and spliced into the generated headers exactly once, preventing duplicate definitions across multiple interfaces.
+* **Built-In Signal Bridge:** Supports ABI-safe signals (`signal state_changed(Int32 state);`)[cite: 1]. Generates thread-safe connection tables, signal argument structs, and emit helpers for both C and C++ drivers].
+* **Strict Type Mapping:** Unifies built-in types into explicit scalar representations (`Int8` through `Int64`, `UInt8` through `UInt64`, `Float`, `Double`, `Bool` mapped to `int32_t`, and borrowed `String` handling).
+* **Compile-Time AST Verification:** Written in OCaml to ensure strict, type-safe validation of interfaces, methods, signals, and underlying types.
 
 ---
 
