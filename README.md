@@ -1,2 +1,2 @@
 # ctrlc
-CTRLFlow Compile
+CTRLFlow Compiler
